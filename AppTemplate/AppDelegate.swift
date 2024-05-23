@@ -59,7 +59,7 @@ extension AppDelegate {
             }
             FlowX.sharedInstance.startSession()
             
-            FXTheme.sharedInstance.setupTheme(withUuid: "{theme-uuid}",
+            FXTheme.sharedInstance.setupTheme(withUuid: ProcessConstants.themeId,
                                               localFileUrl: Bundle.main.url(forResource: "theme", withExtension: "json"),
                                               completion: nil)
         }

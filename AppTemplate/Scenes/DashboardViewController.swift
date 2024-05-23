@@ -98,26 +98,17 @@ class DashboardViewController: UIViewController {
     func handleSuccessfulLogin() {
         setupAuthButton()
 
-        if FXSessionConfig.sharedInstance.sessionManager == nil {
-            FXSessionConfig.sharedInstance.configure { (config) in
-                config.token = FXAuth.sharedInstance.accessToken
-                config.sessionManager = FXAuth.sharedInstance.sessionManager()
-            }
-            
-            FlowX.sharedInstance.startSession()
-        } else {
-            FXSessionConfig.sharedInstance.configure { (config) in
-                config.token = FXAuth.sharedInstance.accessToken
-                config.sessionManager = FXAuth.sharedInstance.sessionManager()
-            }
-
-            if let accessToken = FXAuth.sharedInstance.accessToken {
-                FlowX.sharedInstance.updateAuthorization(token: accessToken)
-            }
+        FXSessionConfig.sharedInstance.configure { (config) in
+            config.token = FXAuth.sharedInstance.accessToken
+            config.sessionManager = FXAuth.sharedInstance.sessionManager()
+        }
+        
+        if let accessToken = FXAuth.sharedInstance.accessToken {
+            FlowX.sharedInstance.updateAuthorization(token: accessToken)
         }
         
         subscription?.cancel()
-        FXTheme.sharedInstance.setupTheme(withUuid: "c6229a77-64ba-43e9-b373-def4d77282ed",
+        FXTheme.sharedInstance.setupTheme(withUuid: ProcessConstants.themeId,
                                           localFileUrl: Bundle.main.url(forResource: "theme", withExtension: "json"),
                                           completion: nil)
     }
