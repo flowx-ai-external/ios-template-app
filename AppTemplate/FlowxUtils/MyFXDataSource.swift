@@ -59,4 +59,8 @@ class MyFXDataSource: FXDataSource {
         FlowX.sharedInstance.stopProcess(name: process)
     }
 
+    func viewForStepperHeader(stepViewModel: StepViewModel) -> AnyView? {
+        nil
+    }
+    
 }
