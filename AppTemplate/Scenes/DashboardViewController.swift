@@ -76,10 +76,14 @@ class DashboardViewController: UIViewController {
         processNavigationController = FXNavigationViewController.navigationController()
 
         FlowX.sharedInstance.startProcess(navigationController: processNavigationController,
+                                          applicationUuid: "",
                                           name: ProcessConstants.templateProcess,
                                           params: [:],
                                           isModal: true,
-                                          showLoader: true)
+                                          showLoader: true) { [weak self] in
+            //TODO: dismiss
+            self?.processNavigationController.dismiss(animated: true)
+        }
   
         processNavigationController.modalPresentationStyle = .overFullScreen
         self.present(processNavigationController, animated: true, completion: nil)

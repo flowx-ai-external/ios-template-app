@@ -45,7 +45,8 @@ extension AppDelegate {
     
     func configureFlowX() {
         FXConfig.sharedInstance.configure { (config) in
-            config.language = "en-US"
+            config.language = "en"
+            config.locale = "en-US"
             config.enginePath = EnvironmentConstants.environment.enginePath
             config.baseURL = EnvironmentConstants.environment.baseURL
             config.imageBaseURL = EnvironmentConstants.environment.imageBaseURL
