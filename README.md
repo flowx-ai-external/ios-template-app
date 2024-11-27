@@ -5,8 +5,8 @@ The project contains sample implementations of custom components and custom vali
 
 ## Requirements
 
-Xcode 16
-Cocoapods 
+- Xcode 16
+- Cocoapods 
 
 ## Installation
 
