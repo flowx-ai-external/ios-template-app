@@ -14,8 +14,8 @@ target 'AppTemplate' do
   use_frameworks!
 
   # Pods for AppTemplate
-  pod 'FXAuthLibrary'
-  pod 'FlowXRenderer', '4.0.10'
+  pod 'FXAuthLibrary', '1.0.2'
+  pod 'FlowXRenderer', '4.0.13'
 
   target 'AppTemplateTests' do
     inherit! :search_paths

@@ -1,26 +1,26 @@
 PODS:
-  - Alamofire (5.10.2)
-  - FlowXRenderer (4.0.10):
-    - Alamofire
-    - SDWebImageSVGCoder
-    - SDWebImageSwiftUI
-  - FXAuthLibrary (1.0.1):
-    - Alamofire
+  - Alamofire (5.9.1)
+  - FlowXRenderer (4.0.13):
+    - Alamofire (~> 5.9.0)
+    - SDWebImageSVGCoder (~> 1.7.0)
+    - SDWebImageSwiftUI (= 3.0.3)
+  - FXAuthLibrary (1.0.2):
+    - Alamofire (~> 5.9.0)
     - JWTDecode
     - SwiftKeychainWrapper
   - JWTDecode (3.3.0)
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
-  - SDWebImageSVGCoder (1.8.0):
+  - SDWebImageSVGCoder (1.7.0):
     - SDWebImage/Core (~> 5.6)
-  - SDWebImageSwiftUI (3.1.3):
+  - SDWebImageSwiftUI (3.0.3):
     - SDWebImage (~> 5.10)
   - SwiftKeychainWrapper (4.0.1)
 
 DEPENDENCIES:
-  - FlowXRenderer (= 4.0.10)
-  - FXAuthLibrary
+  - FlowXRenderer (= 4.0.13)
+  - FXAuthLibrary (= 1.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -35,15 +35,15 @@ SPEC REPOS:
     - FXAuthLibrary
 
 SPEC CHECKSUMS:
-  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
-  FlowXRenderer: a7294b9db6ca08949ee14987ae87ac1dd93df61c
-  FXAuthLibrary: bdd704a51e018c2d8b75134168298365bb1e35ef
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  FlowXRenderer: 03fb68a430955d75250bb65a479bd79c76d6b546
+  FXAuthLibrary: a5308717b2bd08ec641fdf44b0b4eedfb22d47f7
   JWTDecode: 1ca6f765844457d0dd8690436860fecee788f631
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
-  SDWebImageSVGCoder: 8e10c8f6cc879c7dfb317b284e13dd589379f01c
-  SDWebImageSwiftUI: a6d7129fb68fc18c8b930b869ddcfce314e49ded
+  SDWebImageSVGCoder: 15a300a97ec1c8ac958f009c02220ac0402e936c
+  SDWebImageSwiftUI: 22418dd8eebf6197286acd26b0e9fb5efc43f8d4
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
 
-PODFILE CHECKSUM: 9d802455b198aeeb34941b03097493141017af7c
+PODFILE CHECKSUM: e06c99bbb7622d99960f15d05556f2a4ead2eddf
 
 COCOAPODS: 1.16.1
