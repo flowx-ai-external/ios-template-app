@@ -1,6 +1,6 @@
 PODS:
-  - Alamofire (5.10.1)
-  - FlowXRenderer (4.0.2):
+  - Alamofire (5.10.2)
+  - FlowXRenderer (4.0.10):
     - Alamofire
     - SDWebImageSVGCoder
     - SDWebImageSwiftUI
@@ -8,18 +8,18 @@ PODS:
     - Alamofire
     - JWTDecode
     - SwiftKeychainWrapper
-  - JWTDecode (3.2.0)
-  - SDWebImage (5.19.7):
-    - SDWebImage/Core (= 5.19.7)
-  - SDWebImage/Core (5.19.7)
-  - SDWebImageSVGCoder (1.7.0):
+  - JWTDecode (3.3.0)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - SDWebImageSVGCoder (1.8.0):
     - SDWebImage/Core (~> 5.6)
-  - SDWebImageSwiftUI (3.1.1):
+  - SDWebImageSwiftUI (3.1.3):
     - SDWebImage (~> 5.10)
   - SwiftKeychainWrapper (4.0.1)
 
 DEPENDENCIES:
-  - FlowXRenderer (= 4.0.2)
+  - FlowXRenderer (= 4.0.10)
   - FXAuthLibrary
 
 SPEC REPOS:
@@ -35,15 +35,15 @@ SPEC REPOS:
     - FXAuthLibrary
 
 SPEC CHECKSUMS:
-  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
-  FlowXRenderer: 98dbf8e852373a311eca84b8042a6c3e18b7abd9
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  FlowXRenderer: a7294b9db6ca08949ee14987ae87ac1dd93df61c
   FXAuthLibrary: bdd704a51e018c2d8b75134168298365bb1e35ef
-  JWTDecode: 7dae24cb9bf9b608eae61e5081029ec169bb5527
-  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
-  SDWebImageSVGCoder: 15a300a97ec1c8ac958f009c02220ac0402e936c
-  SDWebImageSwiftUI: dcff3d05fd0579ff280221ae8856c34ac3b67f25
+  JWTDecode: 1ca6f765844457d0dd8690436860fecee788f631
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  SDWebImageSVGCoder: 8e10c8f6cc879c7dfb317b284e13dd589379f01c
+  SDWebImageSwiftUI: a6d7129fb68fc18c8b930b869ddcfce314e49ded
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
 
-PODFILE CHECKSUM: f55c5fc4303b9100db49d2abb09e27da9c7209b5
+PODFILE CHECKSUM: 9d802455b198aeeb34941b03097493141017af7c
 
 COCOAPODS: 1.16.1

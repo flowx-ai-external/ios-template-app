@@ -76,7 +76,7 @@ class DashboardViewController: UIViewController {
         processNavigationController = FXNavigationViewController.navigationController()
 
         FlowX.sharedInstance.startProcess(navigationController: processNavigationController,
-                                          applicationUuid: ProcessConstants.templateApplicationUuid,
+                                          projectId: ProcessConstants.templateApplicationUuid,
                                           name: ProcessConstants.templateProcess,
                                           params: [:],
                                           isModal: true,

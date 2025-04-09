@@ -63,4 +63,7 @@ class MyFXDataSource: FXDataSource {
         nil
     }
     
+    func newProcessStarted(processInstanceUuid: String) {
+        
+    }
 }
